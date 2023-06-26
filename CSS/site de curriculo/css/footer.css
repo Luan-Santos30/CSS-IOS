@@ -1,0 +1,14 @@
+footer{
+    height: 100px;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.icon{
+    font-size: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.icon:hover{
+    color: white;    
+}

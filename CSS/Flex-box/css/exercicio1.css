@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(91, 228, 103);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+H1{
+    text-align: center;
+}
+
+section > .verde{
+    background-color: green;
+    margin: 0px;
+    padding: 30px;
+    width: 15%;
+    height: 15px;
+}
+
+section > .azul{
+    background-color: blue;
+    margin: 0px;
+    padding: 30px;
+    width: 15%;
+    height: 15px;
+}
+
+section > .vermelho{
+    background-color: red;
+    margin: 0px;
+    padding: 30px;
+    width: 15%;
+    height: 15px;
+}
+
+.um{
+    display: flex;
+    justify-content: flex-start;
+}
+/*Coluna um*/ 
+
+.dois{
+    display: flex;
+    justify-content: flex-end;
+}
+/*Coluna dois*/
+
+.tres{
+    display: flex;
+    justify-content: space-around;
+}
+/*Coluna três*/
+
+.quatro{
+    display: flex;
+    justify-content: space-evenly;
+}

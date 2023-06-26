@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+
+    <script>
+        
+
+        function validaForm(){
+            let x = document.forms["myform"]["fname"].value;
+            if(x == ""){
+                alert("nenhum nome foi colocado")
+            } else{
+                alert("seu cadastro foi feito com sucesso")
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="myForm" onsubmit="validaForm()">
+        nome: <input type="text" name="fname">
+        <input type="submit" value="cadastrar">
+    </form>
+</body>
+</html>

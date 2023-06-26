@@ -1,0 +1,17 @@
+.caixa > div{
+    background-color: #1a1a1a;
+    color: #fff;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    width: 1000px;
+    background-color: #000000;
+    margin: auto;
+    justify-content: space-between;
+}

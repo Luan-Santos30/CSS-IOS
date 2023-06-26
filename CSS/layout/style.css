@@ -1,0 +1,37 @@
+.header{
+    border: 1px solid black;
+    height: 100px;
+}
+
+.nav{
+    border: 1px solid black;
+    height: 20px;
+}
+
+.main{
+    border: 1px solid black;
+    height: 600px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.article{
+    border: 1px solid black;
+    height: 540px;
+    width: 580px;
+    margin: auto;
+    margin-top: 25px;
+
+}
+
+.aside{
+    border: 1px solid black;
+    height: 100px;
+    width: 565px;
+    margin: auto;
+    margin-top: 380px;
+}
+.footer{
+    border: 1px solid black;
+    height: 20px;
+}

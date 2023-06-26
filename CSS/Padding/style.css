@@ -1,0 +1,31 @@
+body{
+    background-color: #262730;
+    color: white;
+    
+}
+
+.box{
+border: 1px solid #02ee0a91;
+    padding: 70px;
+}
+
+article h1{
+    text-align: center;
+}
+
+article p{
+    text-align: justify;
+}
+
+article .BoxPadding{
+    border: 1px solid #02ee0a91;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50;
+    padding-left: 80;
+}
+
+.boxPadding{
+    border: 1px solid #02ee0a91;
+    padding: 25px 50px 75px 100px;
+}
